@@ -5,9 +5,8 @@ using System.Text;
 
 namespace DataAccess.Abstract
 {
-    // Not: Interface'lerin "operasyonları" Public'tir.
-    public interface IProductDal:IEntitiyRepository<Product>
+    public interface ICategoryDal:IEntitiyRepository<Category>
     {
-        
+
     }
 }
